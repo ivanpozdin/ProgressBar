@@ -16,7 +16,6 @@ import androidx.compose.ui.unit.dp
 import ru.spbu.retest.ViewModel
 import kotlin.time.ExperimentalTime
 
-
 @Composable
 fun Rectangle(shape: Shape, color: Color) {
     Column(modifier = Modifier.fillMaxWidth().wrapContentSize(Alignment.Center)) {
